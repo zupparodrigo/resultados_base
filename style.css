@@ -63,3 +63,28 @@ body {
     font-size: 2.4rem;
     margin-bottom: 1rem;
 }
+.resultado p {
+    max-width: 26rem;
+    margin-inline: auto;
+    color: var(--light-blue);
+}
+
+.resumo {
+    padding: 2.4rem 3.2rem;
+    background: var(--white);
+}
+
+.resumo h2{
+    color: var(--dark-navy);
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.resumo > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1.6rem;
+}
