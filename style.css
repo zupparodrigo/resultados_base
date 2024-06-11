@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+    --resultado-bg: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 180%);
+    --media-bg: linear-gradient(180deg, #4021C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+    --white: #FFF;
+    --light-blue: #CAC9FF;
+    --dark-navy: #303B59;
+    --resumo-div-bg: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%);
+    --reacao-bg: #FF5555;
+    --memoria-bg: #FFB21E;
+    --verbal-bg: #00BB8F;
+    --visual-bg: #1125d6;
+    --very-light-blue: #ECF2FF;
+}
