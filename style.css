@@ -88,3 +88,73 @@ body {
     border-radius: 1.2rem;
     margin-bottom: 1.6rem;
 }
+.resumo > div div {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.resumo > div strong {
+    color: var(--dark-navy);
+}
+
+.resumo > div strong span {
+    opacity: 0.5;
+}
+
+.resumo_reacao {
+    background: var(--reacao-bg) var(--resumo-div-bg); 
+    color: var(--reacao-bg);
+}
+
+.resumo_memoria {
+    background: var(--memoria-bg) var(--resumo-div-bg);
+    color: var(--memoria-bg);
+}
+
+.resumo_verbal {
+    background: var(--verbal-bg) var(--resumo-div-bg);
+    color: var(--verbal-bg);
+}
+
+.resumo_visual {
+    background: var(--visual-bg) var(--resumo-div-bg);
+    color: var(--visual-bg);
+}
+
+.resumo button {
+    margin-top: 0.8rem;
+    width: 100%;
+    border: none;
+    background: var(--dark-navy);
+    color: var(--white);
+    padding-block: 1.6rem;
+    border-radius: 12.8rem;
+    font-weight: 700;
+}
+
+@media (min-width: 736px) {
+    body {
+        min-height: 100svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 736px;
+        background: var(--white);
+        border-radius: 3.2rem;
+    }
+
+    .resultado {
+        padding-block: 3.8rem;
+        border-radius: 3.2rem;
+    }
+
+    .resultado h1 {
+        font-size: 2.4rem;
+        margin-bottom: 3.6rem;
+    }
