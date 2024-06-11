@@ -158,3 +158,49 @@ body {
         font-size: 2.4rem;
         margin-bottom: 3.6rem;
     }
+    .resultado div {
+        width: 20rem;
+        height: 20rem;
+        margin-bottom: 2.8rem;
+    }
+
+    .resultado div strong:nth-of-type(1) {
+        font-size: 7.2rem;
+    }
+
+    .resultado div stron:nth-of-type(2) {
+        font-size: 1.8rem;
+    }
+
+    .resultado h2 {
+        font-size: 3.2rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .resultado p {
+        font-size: 1.8rem;
+    }
+
+    .resumo {
+        padding: 3.8rem 4rem;
+        border-radius: 3.2rem;
+    }
+
+    .resumo h2 {
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+    }
+
+    .resumo div {
+        font-size: 1.8rem;
+    }
+
+    .resumo button {
+        margin-top: 2.4rem;
+    }
+
+    .resumo button:hover {
+        background: var(--resultado-bg);
+        cursor: pointer;
+    }
+}
