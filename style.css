@@ -19,3 +19,16 @@
     --visual-bg: #1125d6;
     --very-light-blue: #ECF2FF;
 }
+
+body {
+    font-size: 1.6rem;
+    background: var(--very-light-blue);
+}
+
+.resultado {
+    padding-block: 2.4rem;
+    background: var(--resultado-bg);
+    text-align: center;
+    color: var(--white);
+    border-radius: 0 0 3.2rem 3.2rem; 
+}
